@@ -4,14 +4,14 @@ import { Inter, IBM_Plex_Serif } from 'next/font/google'
 const ibmPlexSerif = IBM_Plex_Serif({ weight: ['400'], subsets: ['latin'], })
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between w-full text-blue-700">
+    <header className="flex flex-row justify-between w-full text-neutral-300">
       <nav className={`text-xl ${ibmPlexSerif.className} w-full`}>
       <ul className="">
-      <li className="ml-4 border-b-2 pb-1 mb-2 flex justify-between items-center border-blue-700 font-semibold"><Link href="./projects">Amarpreet Singh</Link></li>
-          <li className="ml-4 border-b-2 pb-1 mb-2 flex justify-between items-center border-blue-700"><Link href="./projects">Projects</Link></li>
-          <li className="ml-4 border-b-2 pb-1 mb-2 flex justify-between items-center border-blue-700"><Link href="./about">About</Link></li>
-          <li className="ml-4 border-b-2 pb-1 mb-2 flex justify-between items-center border-blue-700"><Link href="./projects">Resume</Link></li>
-          <li className="ml-4 border-b-2 pb-1 mb-2 flex justify-between items-center border-blue-700"><Link href="./contact"><s>Let&apos;s connect</s></Link></li>
+      <li className="ml-4  pb-1 mb-2 flex justify-between items-center font-semibold"><Link href="/" className="border-b-2 border-neutral-300">Amarpreet Singh</Link></li>
+          <li className="ml-4 pb-1 mb-2 flex justify-between items-center"><Link href="./projects" className="border-b-2 border-neutral-300">Projects</Link></li>
+          <li className="ml-4 pb-1 mb-2 flex justify-between items-center"><Link href="./about" className="border-b-2 border-neutral-300">About</Link></li>
+          <li className="ml-4 pb-1 mb-2 flex justify-between items-center"><Link href="./projects" className="border-b-2 border-neutral-300">Resume</Link></li>
+          <li className="ml-4 pb-1 mb-2 flex justify-between items-center"><Link href="./contact" className="border-b-2 border-neutral-300">Let&apos;s connect</Link></li>
         </ul>
       </nav>
     </header>

@@ -9,7 +9,7 @@ const Contact = () => {
    <>
       
       <main className="bg-blue-100 w-full p-24 flex min-h-screen flex-col justify-between">
-        <Header />
+        
         <h1
           className={`text-blue-700 text-6xl ${ibmPlexSerif.className}`}
         >
