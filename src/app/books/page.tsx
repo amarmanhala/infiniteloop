@@ -1,4 +1,5 @@
 import { Inter, IBM_Plex_Serif } from "next/font/google";
+import { Tweet } from "react-tweet";
 
 const ibmPlexSerif = IBM_Plex_Serif({ weight: ["300"], subsets: ["latin"] });
 
@@ -12,6 +13,10 @@ const Books = () => {
 
         <h2>keep reading, keep growing!</h2>
       </header>
+      <main className="flex justify-center mt-6">
+      <div className="dark w-[500px]"><Tweet id="1638227111692619777"></Tweet></div>
+      </main>
+      
     </section>
   );
 };

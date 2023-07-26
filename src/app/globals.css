@@ -16,3 +16,9 @@ body {
   color: rgb(var(--foreground-rgb));
   background: var(--background);
 }
+
+.react-tweet-theme {
+  --tweet-bg-color: transparent !important;
+  --tweet-border: 1px solid #404040 !important;
+  --tweet-bg-color-hover: #000 !important;
+}
