@@ -5,7 +5,7 @@ const ibmPlexSerif = IBM_Plex_Serif({ weight: ["400"], subsets: ["latin"] });
 const Header = () => {
   return (
     <header className="flex flex-row justify-between w-full text-neutral-300">
-      <nav className={`text-xl ${ibmPlexSerif.className} w-full text-lg`}>
+      <nav className={`text-xl ${ibmPlexSerif.className} text-lg`}>
         <ul className="">
           <li className="ml-4  pb-1 mb-1 flex justify-between items-center">
             <Link
@@ -57,6 +57,15 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+
+      <div>
+        <Link
+                href="./uses"
+                className={`hover:text-[#dd425c]`}
+              >
+                Curious to know the stuff / tech I use?
+              </Link>
+      </div>
     </header>
   );
 };
