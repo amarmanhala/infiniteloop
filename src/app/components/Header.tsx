@@ -5,12 +5,12 @@ const ibmPlexSerif = IBM_Plex_Serif({ weight: ["400"], subsets: ["latin"] });
 const Header = () => {
   return (
     <header className="flex flex-row justify-between w-full text-neutral-300">
-      <nav className={`text-xl ${ibmPlexSerif.className} text-lg`}>
-        <ul className="">
+      <nav className="">
+        <ul className="flex">
           <li className="ml-4  pb-1 mb-1 flex justify-between items-center">
             <Link
               href="/"
-              className="border-b-2 border-[#dd425c] hover:text-[#dd425c]"
+              className="hover:text-[#dd425c]"
             >
               Amarpreet Singh
             </Link>

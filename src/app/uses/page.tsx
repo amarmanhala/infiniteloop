@@ -2,9 +2,13 @@ import React from 'react'
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import { TECH_STACK } from "../../../data"
 
+
+
 const ibmPlexSerif = IBM_Plex_Serif({ weight: ["400"], subsets: ["latin"] });
 
 function Uses() {
+  // Using map() to create an array of <span> elements
+  const technologyElements = TECH_STACK.map(tech => <span key={tech}>{tech}</span>);
   return (
     <section className="mt-12 sm:mt-12">
         <h2
@@ -12,11 +16,9 @@ function Uses() {
         >
           Tech
         </h2>
-        {
-          TECH_STACK.map((tech, index) => {
-            return (<h1 key={index}>{tech.name}</h1>)
-          })
-        }
+        <ul className="text-lg text-neutral-300">
+         
+        </ul>
       </section>
   )
 }
