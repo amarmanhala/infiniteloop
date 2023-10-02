@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import ProjectCard from "./components/ProjectCard";
+import PageSectionHeader from "./components/PageSectionHeader";
+import PageSection from "./components/PageSection";
 
 const ibmPlexSerif = IBM_Plex_Serif({ weight: ["300"], subsets: ["latin"] });
 
@@ -17,16 +19,23 @@ export default function Home() {
       </section>
 
       <section className="mt-16">
-        <h2
-          className={`${ibmPlexSerif.className} text-white text-4xl border-b border-stone-700 py-4`}
-        >
-          Projects
-        </h2>
+        <PageSectionHeader title="Projects" />
         <div className="grid w-full grid-cols-2 gap-6 my-4">
           <ProjectCard />
           <ProjectCard />
         </div>
       </section>
+      <PageSection>
+        <PageSectionHeader title="About me" />
+        <div>
+          <p className="text-stone-100 text-lg">
+            Over the past decade, I've written content on my blog and
+            newsletter. I try to keep things simple. You'll find writing about
+            technologies I'm interested in at the time, or how I'm learning and
+            growing in my career, sharing knowledge along the way.
+          </p>
+        </div>
+      </PageSection>
     </main>
   );
 }
