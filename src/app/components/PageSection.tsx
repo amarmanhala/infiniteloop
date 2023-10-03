@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 
 const PageSection = ({ children }: { children: any }) => {
