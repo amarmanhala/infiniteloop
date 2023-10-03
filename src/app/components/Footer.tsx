@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
-import { Inter, IBM_Plex_Serif } from "next/font/google";
-
-const ibmPlexSerif = IBM_Plex_Serif({ weight: ["300"], subsets: ["latin"] });
+import Link from "next/link";
 
 const Footer = () => {
   var days = [
@@ -22,8 +20,19 @@ const Footer = () => {
       <div>
         {" "}
         <span className="text-stone-300">
-          This site, I have built with Gatsby, Styled Components, and is hosted
-          on Netlify. Github hosts the source code.
+          This site, I have built with JavaScript,{" "}
+          <Link href="https://react.dev/" target="blank">
+            React
+          </Link>
+          ,{" "}
+          <Link href="https://nextjs.org/" target="blank">
+            Nextjs
+          </Link>{" "}
+          and{" "}
+          <Link href="https://tailwindcss.com/" target="blank">
+            Tailwind
+          </Link>
+          .
         </span>
       </div>
 
