@@ -3,7 +3,7 @@
 import React from "react";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 
-const ibmPlexSerif = IBM_Plex_Serif({ weight: ["300"], subsets: ["latin"] });
+const ibmPlexSerif = IBM_Plex_Serif({ weight: ["400"], subsets: ["latin"] });
 
 
 const PageSectionHeader = ({ title }: { title: string }) => {
