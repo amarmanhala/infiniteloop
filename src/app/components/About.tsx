@@ -6,8 +6,8 @@ const About = () => {
   return (
     <PageSection>
     <PageSectionHeader title="About me" />
-    <div className="text-stone-200 text-lg">
-      <p className="text-stone-100 text-lg leading-relaxed mb-4">
+    <div className="text-lg">
+      <p className="text-lg leading-relaxed mb-4">
         I&apos;ve been working as full stack developer for over five years,
         working with both big tech companies and small startups since I
         started my career in 2016. I earned my Master&apos;s degree ins

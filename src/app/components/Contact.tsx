@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <PageSection>
     <PageSectionHeader title="Let's chat"></PageSectionHeader>
-    <p className="text-stone-100 text-xl">
+    <p className="text-xl">
       Email me at{" "}
       <Anchor paramURL="mailto: amar.manhala@gmail.com">
         amar.manhala@gmail.com
