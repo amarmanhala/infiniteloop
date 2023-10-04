@@ -39,14 +39,7 @@ const Header = () => {
               Resume
             </Link>
           </li>
-          <li className="ml-4 pb-1 mb-1 flex justify-between items-center">
-            <Link
-              href="./books"
-              className="border-b-2 border-[#dd425c] hover:text-[#dd425c]"
-            >
-              Books
-            </Link>
-          </li>
+          
           <li className="ml-4 pb-1 mb-1 flex justify-between items-center">
             <Link
               href="./contact"
