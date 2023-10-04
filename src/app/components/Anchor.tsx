@@ -13,7 +13,7 @@ const Anchor = ({
   children: any;
 }) => {
   return (
-    <Link href={paramURL} target="blank" className={` ${ibmPlexSerif.className} border-b-2 border-pink-600 hover:text-pink-600 transition-colors duration-200 ease-in-out`}>
+    <Link href={paramURL} target="blank" className={` ${ibmPlexSerif.className} border-b-2 border-orange-600 hover:text-orange-600 transition-colors duration-200 ease-in-out`}>
       {children}
     </Link>
   );
