@@ -1,3 +1,5 @@
+"use client"
+
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import { Tweet } from "react-tweet";
 
